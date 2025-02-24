@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
 
             {/* CENTER NAVIGATION */}
-            <div className="hidden md:flex space-x-4 ld:space-x-8 ">
+            <div className="hidden md:flex space-x-4 lg:space-x-8 ">
                 {menuItems.map((item, index) => (
                     <button key={index} className="flex items-center space-x-2 text-black hover:text-orange-600 transition-all duration-300 focus:outline-none">
                         <span className="text-lg transition-transform group-hover:scale-125">
