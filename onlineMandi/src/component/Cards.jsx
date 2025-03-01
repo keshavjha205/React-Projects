@@ -1,6 +1,3 @@
-
-
-
 function Cards({products}) {
     return (
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 px-4 md:px-8 w-full'>
